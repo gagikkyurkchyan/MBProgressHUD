@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBProgressHUD", "MBProgressHUD.csproj", "{473BB5C4-D6CD-4BAB-809D-09F6D05F09E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBProgressHUD", "MBProgressHUD.csproj", "{04954BF7-2988-4C22-A4FD-0C412CBBC3A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +9,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{473BB5C4-D6CD-4BAB-809D-09F6D05F09E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{473BB5C4-D6CD-4BAB-809D-09F6D05F09E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{473BB5C4-D6CD-4BAB-809D-09F6D05F09E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{473BB5C4-D6CD-4BAB-809D-09F6D05F09E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04954BF7-2988-4C22-A4FD-0C412CBBC3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04954BF7-2988-4C22-A4FD-0C412CBBC3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04954BF7-2988-4C22-A4FD-0C412CBBC3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04954BF7-2988-4C22-A4FD-0C412CBBC3A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

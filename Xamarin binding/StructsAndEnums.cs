@@ -1,5 +1,5 @@
 using System;
-using Foundation;
+using MonoTouch.Foundation;
 
 namespace MBProgressHUD
 {

@@ -1,10 +1,10 @@
 using System;
 using System.Drawing;
+using MonoTouch.UIKit;
+using MonoTouch.CoreFoundation;
+using MonoTouch.ObjCRuntime;
+using MonoTouch.Foundation;
 
-using ObjCRuntime;
-using Foundation;
-using UIKit;
-using CoreFoundation;
 
 namespace MBProgressHUD
 {
@@ -179,8 +179,8 @@ namespace MBProgressHUD
 		float Progress { get; set; }
 
 		// @property (assign) CGSize minSize;
-		[Export ("minSize", ArgumentSemantic.Assign)]
-		SizeF MinSize { get; set; }
+//		[Export ("minSize", ArgumentSemantic.Assign)]
+//		SizeF MinSize { get; set; }
 
 		// @property (assign, getter = isSquare) BOOL square;
 		[Export ("square", ArgumentSemantic.Assign)]

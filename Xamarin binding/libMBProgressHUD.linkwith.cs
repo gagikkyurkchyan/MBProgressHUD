@@ -1,6 +1,4 @@
 using System;
-using ObjCRuntime;
-using Foundation;
+using MonoTouch.ObjCRuntime;
 
-[assembly: LinkWith ("libMBProgressHUD.a", LinkTarget.ArmV7 | LinkTarget.Arm64 | LinkTarget.Simulator | LinkTarget.Simulator64, SmartLink = true, Frameworks = "CoreGraphics UIKit Foundation")]
-[assembly: LinkerSafe]
+[assembly: LinkWith ("libMBProgressHUD.a", LinkTarget.ArmV7 | LinkTarget.Simulator, SmartLink = true, ForceLoad = true)]

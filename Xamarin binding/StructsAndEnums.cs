@@ -1,7 +1,9 @@
 using System;
+using Foundation;
 
 namespace MBProgressHUD
 {
+	[Preserve]
 	public enum MBProgressHUDMode
 	{
 		/** Progress is shown using an UIActivityIndicatorView. This is the default. */
@@ -18,6 +20,7 @@ namespace MBProgressHUD
 		Text
 	}
 
+	[Preserve]
 	public enum MBProgressHUDAnimation
 	{
 		/** Opacity animation */
